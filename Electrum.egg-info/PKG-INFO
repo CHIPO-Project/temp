@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Electrum
+Version: 3.3.9
+Summary: Lightweight CHIPO Wallet
+Home-page: https://www.chipo.icu
+Author: chipo dev
+Author-email: dev@chipo.icu
+License: MIT Licence
+Description: Lightweight CHIPO Wallet
+Platform: UNKNOWN
+Requires-Python: >=3.6.1
+Provides-Extra: fast
+Provides-Extra: full
+Provides-Extra: gui
+Provides-Extra: hardware
