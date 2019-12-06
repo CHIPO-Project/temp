@@ -1,4 +1,4 @@
-Electrum - Lightweight Fujicoin client
+Electrum - Lightweight Chipo client
 =====================================
 
 ::

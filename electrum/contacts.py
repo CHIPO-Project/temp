@@ -1,4 +1,4 @@
-# Electrum - Lightweight Fujicoin Client
+# Electrum - Lightweight Chipo Client
 # Copyright (c) 2015 Thomas Voegtlin
 #
 # Permission is hereby granted, free of charge, to any person
@@ -93,7 +93,7 @@ class Contacts(dict, Logger):
                 'type': 'openalias',
                 'validated': validated
             }
-        raise Exception("Invalid Fujicoin address or alias", k)
+        raise Exception("Invalid Chipo address or alias", k)
 
     def resolve_openalias(self, url):
         # support email-style addresses, per the OA standard

@@ -349,7 +349,7 @@ msgstr "Вже оновлено"
 
 #: electrum/gui/qt/main_window.py:1291
 msgid "Also, dust is not kept as change, but added to the fee."
-msgstr "Дуже мала вхідна сума Fujicoin (dust) не зберігається, але додається до комісійної винагороди."
+msgstr "Дуже мала вхідна сума Chipo (dust) не зберігається, але додається до комісійної винагороди."
 
 #: electrum/gui/qt/main_window.py:1292
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
@@ -534,20 +534,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Бітрейт [кБ/с]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Fujicoin Address"
+msgid "Chipo Address"
 msgstr "Біткойн адреса"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Fujicoin Address is None"
-msgstr "Fujicoin-адреса не визначена"
+msgid "Chipo Address is None"
+msgstr "Chipo-адреса не визначена"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Fujicoin address where the payment should be received. Note that each payment request uses a different Fujicoin address."
-msgstr "Адреса Fujicoin, на який повинен бути отриманий платіж. Зверніть увагу, що кожен запит платежу використовує іншу Fujicoin адресу."
+msgid "Chipo address where the payment should be received. Note that each payment request uses a different Chipo address."
+msgstr "Адреса Chipo, на який повинен бути отриманий платіж. Зверніть увагу, що кожен запит платежу використовує іншу Chipo адресу."
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Fujicoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Транзакції Fujicoin зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
+msgid "Chipo transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Транзакції Chipo зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
 
 #: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1243,7 +1243,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Помилка зв'язку пристрою. Будь ласка, відключіть і знову підключіть ваш Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Fujicoin mode"
+msgid "Device not in Chipo mode"
 msgstr "Пристрій не в режимі Біткойн"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1429,7 +1429,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum не вдалося експортувати транзакцію."
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Fujicoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Chipo."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -1557,8 +1557,8 @@ msgid "Enter a label to name your device:"
 msgstr "Введіть назву мітки для вашого пристрою:"
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Fujicoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Введіть список адрес Fujicoin (це створить гаманець тільки для спостереження) або список приватних ключів."
+msgid "Enter a list of Chipo addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Введіть список адрес Chipo (це створить гаманець тільки для спостереження) або список приватних ключів."
 
 #: electrum/gui/qt/main_window.py:1971
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -1799,8 +1799,8 @@ msgid "Expired"
 msgstr "Термін дії закінчився"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Fujicoin addresses."
-msgstr "Минулі запити повинні бути видалені вручну з вашого списку, щоб звільнити відповідні адреси Fujicoin."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Chipo addresses."
+msgstr "Минулі запити повинні бути видалені вручну з вашого списку, щоб звільнити відповідні адреси Chipo."
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
 msgid "Expires"
@@ -1926,8 +1926,8 @@ msgid "Firmware Version"
 msgstr "Версія прошивки"
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Fujicoin\" app) too old for Segwit support. Please update at"
-msgstr "Версія вбудованого програмного забезпечення (або програма Fujicoin) занадто стара для підтримки Segwit. Будь ласка, оновіть її на"
+msgid "Firmware version (or \"Chipo\" app) too old for Segwit support. Please update at"
+msgstr "Версія вбудованого програмного забезпечення (або програма Chipo) занадто стара для підтримки Segwit. Будь ласка, оновіть її на"
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
@@ -2218,12 +2218,12 @@ msgid "Import"
 msgstr "Імпортувати"
 
 #: electrum/base_wizard.py:206
-msgid "Import Fujicoin Addresses"
+msgid "Import Chipo Addresses"
 msgstr "Імпортувати біткойн-адреси"
 
 #: electrum/base_wizard.py:134
-msgid "Import Fujicoin addresses or private keys"
-msgstr "Імпортувати Fujicoin-адреси або закриті ключі"
+msgid "Import Chipo addresses or private keys"
+msgstr "Імпортувати Chipo-адреси або закриті ключі"
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
 msgid "Import addresses"
@@ -2360,17 +2360,17 @@ msgstr "Невірна сума"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Fujicoin Address"
-msgstr "Невірна адреса Fujicoin"
+msgid "Invalid Chipo Address"
+msgstr "Невірна адреса Chipo"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Fujicoin address"
-msgstr "Некоректна адреса Fujicoin"
+msgid "Invalid Chipo address"
+msgstr "Некоректна адреса Chipo"
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Fujicoin address."
-msgstr "Некоректна адреса Fujicoin."
+msgid "Invalid Chipo address."
+msgstr "Некоректна адреса Chipo."
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
 msgid "Invalid Fee"
@@ -2590,8 +2590,8 @@ msgid "Make sure you install it with python3"
 msgstr "Переконайтеся, що ви встановили його за допомогою python3"
 
 #: electrum/gui/qt/main_window.py:468
-msgid "Make sure you own the seed phrase or the private keys, before you request Fujicoins to be sent to this wallet."
-msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Fujicoin для відправлення в цей гаманець."
+msgid "Make sure you own the seed phrase or the private keys, before you request Chipos to be sent to this wallet."
+msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Chipo для відправлення в цей гаманець."
 
 #: electrum/plugins/coldcard/qt.py:154
 msgid "Master Fingerprint"
@@ -3231,8 +3231,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Будь ласка, збережіть ці {0} слів на папері (порядок важливий). "
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Fujicoin address or a payment request"
-msgstr "Будь-ласка, відскануйте адресу Fujicoin або запит на оплату"
+msgid "Please scan a Chipo address or a payment request"
+msgstr "Будь-ласка, відскануйте адресу Chipo або запит на оплату"
 
 #: electrum/plugin.py:557
 msgid "Please select which {} device to use:"
@@ -3898,8 +3898,8 @@ msgid "Settings"
 msgstr "Налаштування"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Fujicoin Request"
-msgstr "Поділіться Fujicoin-запитом"
+msgid "Share Chipo Request"
+msgstr "Поділіться Chipo-запитом"
 
 #: electrum/gui/kivy/uix/screens.py:277
 msgid "Should this transaction be replaceable?"
@@ -4083,7 +4083,7 @@ msgid "Start"
 msgstr "Старт"
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Fujicoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Chipo system."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2870
@@ -4166,8 +4166,8 @@ msgid "Testnet coins are worthless."
 msgstr "Монети Testnet нічого не варті."
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Fujicoin network. It is used for testing."
-msgstr "Мережа Testnet є відокремленою від основної мережі Fujicoin. Використовується для тестування."
+msgid "Testnet is separate from the main Chipo network. It is used for testing."
+msgstr "Мережа Testnet є відокремленою від основної мережі Chipo. Використовується для тестування."
 
 #: electrum/gui/qt/util.py:662
 msgid "Text copied to clipboard"
@@ -4208,7 +4208,7 @@ msgstr "Сума буде відображатися червоним кольо
 
 #: electrum/gui/qt/main_window.py:938
 msgid "The chipo address never expires and will always be part of this electrum wallet."
-msgstr "Термін дії адреси Fujicoin ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
+msgstr "Термін дії адреси Chipo ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
 
 #: electrum/gui/qt/main_window.py:1191
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -4380,8 +4380,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Це може привести до збільшення комісії за транзакції."
 
 #: electrum/gui/qt/main_window.py:467
-msgid "This means you will not be able to spend Fujicoins with it."
-msgstr "Це означає, що ви не зможете провести Fujicoins з цим."
+msgid "This means you will not be able to spend Chipos with it."
+msgstr "Це означає, що ви не зможете провести Chipos з цим."
 
 #: electrum/gui/qt/main_window.py:3109
 msgid "This might improve your privacy somewhat."
@@ -4575,7 +4575,7 @@ msgstr "Транзакція додана в історію гаманця."
 
 #: electrum/network.py:896
 msgid "Transaction could not be broadcast due to dust outputs."
-msgstr "Транзакцію неможливо транслювати через надто малу вихідну суму монет Fujicoin (dust)."
+msgstr "Транзакцію неможливо транслювати через надто малу вихідну суму монет Chipo (dust)."
 
 #: electrum/gui/qt/main_window.py:3471
 msgid "Transaction could not be saved."
@@ -5182,8 +5182,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr "Ви також можете зберегти непідписані запити або контактні адреси за допомогою кнопки збереження."
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Fujicoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Fujicoin address)"
-msgstr "Ви можете вказати Fujicoin-адреса, мітку з вашої адресної книги (буде показаний список з автодоповненням) або псевдонім (адреси, схожі на e-mail, пов'язану з адресою Fujicoin)"
+msgid "You may enter a Chipo address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Chipo address)"
+msgstr "Ви можете вказати Chipo-адреса, мітку з вашої адресної книги (буде показаний список з автодоповненням) або псевдонім (адреси, схожі на e-mail, пов'язану з адресою Chipo)"
 
 #: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."

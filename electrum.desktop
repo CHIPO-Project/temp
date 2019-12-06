@@ -2,13 +2,13 @@
 # sudo desktop-file-install electrum.desktop
 
 [Desktop Entry]
-Comment=Lightweight Fujicoin Client
+Comment=Lightweight Chipo Client
 Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-fjc %u"
-GenericName[en_US]=Fujicoin Wallet
-GenericName=Fujicoin Wallet
+GenericName[en_US]=Chipo Wallet
+GenericName=Chipo Wallet
 Icon=electrum
-Name[en_US]=Electrum Fujicoin Wallet
-Name=Electrum Fujicoin Wallet
+Name[en_US]=Electrum Chipo Wallet
+Name=Electrum Chipo Wallet
 Categories=Finance;Network;
 StartupNotify=true
 StartupWMClass=electrum

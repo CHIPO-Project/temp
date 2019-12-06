@@ -534,19 +534,19 @@ msgid "Bit rate [kbps]: "
 msgstr "富士率 [kbps]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Fujicoin Address"
+msgid "Chipo Address"
 msgstr "富士币地址"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Fujicoin Address is None"
+msgid "Chipo Address is None"
 msgstr "富士币地址为空"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Fujicoin address where the payment should be received. Note that each payment request uses a different Fujicoin address."
+msgid "Chipo address where the payment should be received. Note that each payment request uses a different Chipo address."
 msgstr "富士币收款地址。请注意每次请求收款都会使用不同的富士币地址。"
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Fujicoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "Chipo transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "在一般情况下，富士币交易不是免费的。富士币的发送者需要支付一定的手续费。"
 
 #: electrum/gui/qt/network_dialog.py:321
@@ -1243,7 +1243,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "设备通讯错误。请拔出并重新插入你的硬件钱包。"
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Fujicoin mode"
+msgid "Device not in Chipo mode"
 msgstr "设备不在富士币模式"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1429,7 +1429,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum 无法导出交易记录。"
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Fujicoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Chipo."
 msgstr "Electrum的特点是速度, 低内存使用率以及便捷富士币。"
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -1557,7 +1557,7 @@ msgid "Enter a label to name your device:"
 msgstr "输入一个标签来命名你的设备："
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Fujicoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Chipo addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "在列表中输入富士币地址（这将创建一个仅供监视的钱包），或者私钥。"
 
 #: electrum/gui/qt/main_window.py:1971
@@ -1799,7 +1799,7 @@ msgid "Expired"
 msgstr "已过期"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Fujicoin addresses."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Chipo addresses."
 msgstr "为了释放相应的富士币地址，过期的请求必须手动从你的列表中删除。"
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
@@ -1926,8 +1926,8 @@ msgid "Firmware Version"
 msgstr "固件版本"
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Fujicoin\" app) too old for Segwit support. Please update at"
-msgstr "固件版本（或者说\"Fujicoin\"这个app）太旧，不能支持隔离见证。请更新"
+msgid "Firmware version (or \"Chipo\" app) too old for Segwit support. Please update at"
+msgstr "固件版本（或者说\"Chipo\"这个app）太旧，不能支持隔离见证。请更新"
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
@@ -2218,11 +2218,11 @@ msgid "Import"
 msgstr "导入"
 
 #: electrum/base_wizard.py:206
-msgid "Import Fujicoin Addresses"
+msgid "Import Chipo Addresses"
 msgstr "导入富士币地址"
 
 #: electrum/base_wizard.py:134
-msgid "Import Fujicoin addresses or private keys"
+msgid "Import Chipo addresses or private keys"
 msgstr "导入富士币地址或私钥"
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
@@ -2358,16 +2358,16 @@ msgstr "金额无效"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Fujicoin Address"
+msgid "Invalid Chipo Address"
 msgstr "富士币地址无效"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Fujicoin address"
+msgid "Invalid Chipo address"
 msgstr "富士币地址无效"
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Fujicoin address."
+msgid "Invalid Chipo address."
 msgstr "富士币地址无效。"
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
@@ -2588,7 +2588,7 @@ msgid "Make sure you install it with python3"
 msgstr "请确保您使用了python3来安装它。"
 
 #: electrum/gui/qt/main_window.py:468
-msgid "Make sure you own the seed phrase or the private keys, before you request Fujicoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request Chipos to be sent to this wallet."
 msgstr "在您使用这个钱包请求付款之前，请再三确定您持有对应的密语种子或私钥。"
 
 #: electrum/plugins/coldcard/qt.py:154
@@ -3229,7 +3229,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "请将这{0} 个单词依次写在纸上（不要擅自打乱顺序、也不要重新排序）。 "
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Fujicoin address or a payment request"
+msgid "Please scan a Chipo address or a payment request"
 msgstr "请扫描富士币地址或付款请求"
 
 #: electrum/plugin.py:557
@@ -3895,7 +3895,7 @@ msgid "Settings"
 msgstr "设置"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Fujicoin Request"
+msgid "Share Chipo Request"
 msgstr "分享富士币付款请求"
 
 #: electrum/gui/kivy/uix/screens.py:277
@@ -4080,7 +4080,7 @@ msgid "Start"
 msgstr "开始"
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Fujicoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Chipo system."
 msgstr "Electrum的重点是速度快, 具有较低的内存使用率和简化了富士币。启动时间是即时的因为他与高性能服务器相结合运作来处理富士币系统中最复杂的部分。"
 
 #: electrum/gui/qt/main_window.py:2870
@@ -4163,7 +4163,7 @@ msgid "Testnet coins are worthless."
 msgstr "测试网上的币是没有价值的。"
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Fujicoin network. It is used for testing."
+msgid "Testnet is separate from the main Chipo network. It is used for testing."
 msgstr "测试网是和富士币主网隔离的。它主要被用于测试。"
 
 #: electrum/gui/qt/util.py:662
@@ -4377,7 +4377,7 @@ msgid "This may result in higher transactions fees."
 msgstr "这会导致手续费变得更高。"
 
 #: electrum/gui/qt/main_window.py:467
-msgid "This means you will not be able to spend Fujicoins with it."
+msgid "This means you will not be able to spend Chipos with it."
 msgstr "这意味着你无法把里面的富士币花出去。"
 
 #: electrum/gui/qt/main_window.py:3109
@@ -5178,7 +5178,7 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr "您也可以使用保存按钮保存未签名的付款请求或联系人地址。"
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Fujicoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Fujicoin address)"
+msgid "You may enter a Chipo address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Chipo address)"
 msgstr "您可以输入：一个富士币地址，您联系人列表中的一个标签（输入时会有自动补全提示列表），或者一个别名（格式类似于电子邮件地址）"
 
 #: electrum/base_wizard.py:435

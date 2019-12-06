@@ -1,4 +1,4 @@
-# Electrum - lightweight Fujicoin client
+# Electrum - lightweight Chipo client
 # Copyright (C) 2012 thomasv@ecdsa.org
 #
 # Permission is hereby granted, free of charge, to any person

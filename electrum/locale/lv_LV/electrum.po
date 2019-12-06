@@ -533,20 +533,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Bitu ātrums [kbps]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Fujicoin Address"
-msgstr "Fujicoin adrese"
+msgid "Chipo Address"
+msgstr "Chipo adrese"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Fujicoin Address is None"
-msgstr "Fujicoin adrese ir Nekas"
+msgid "Chipo Address is None"
+msgstr "Chipo adrese ir Nekas"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Fujicoin address where the payment should be received. Note that each payment request uses a different Fujicoin address."
-msgstr "Fujicoin adrese kurā ir jāsaņem maksājums. Piezīme, katrs maksājuma pieprasījums izmanto jaunu Fujicoin adresi."
+msgid "Chipo address where the payment should be received. Note that each payment request uses a different Chipo address."
+msgstr "Chipo adrese kurā ir jāsaņem maksājums. Piezīme, katrs maksājuma pieprasījums izmanto jaunu Chipo adresi."
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Fujicoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Fujicoin transakcijas nav bezmaksas. Transakcijas komisijas maksu maksā līdzekļu nosūtītājs."
+msgid "Chipo transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Chipo transakcijas nav bezmaksas. Transakcijas komisijas maksu maksā līdzekļu nosūtītājs."
 
 #: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1240,7 +1240,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Fujicoin mode"
+msgid "Device not in Chipo mode"
 msgstr ""
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1425,7 +1425,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum neizdevās izveidot transakcijas eksportu."
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Fujicoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Chipo."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -1553,8 +1553,8 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Fujicoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Ievadiet Fujicoin adrešu sarakstu (šī darbība izveidos maciņu tikai skatīšanai) vai sarakstu ar privātajām atslēgām."
+msgid "Enter a list of Chipo addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Ievadiet Chipo adrešu sarakstu (šī darbība izveidos maciņu tikai skatīšanai) vai sarakstu ar privātajām atslēgām."
 
 #: electrum/gui/qt/main_window.py:1971
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -1794,8 +1794,8 @@ msgid "Expired"
 msgstr "Izbeidzies"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Fujicoin addresses."
-msgstr "Pieprasījumi ar beigušos derīguma termiņu ir jāizdzēš pašrocīgi, lai atbrīvotu saistītās Fujicoin adreses."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Chipo addresses."
+msgstr "Pieprasījumi ar beigušos derīguma termiņu ir jāizdzēš pašrocīgi, lai atbrīvotu saistītās Chipo adreses."
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
 msgid "Expires"
@@ -1921,7 +1921,7 @@ msgid "Firmware Version"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Fujicoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Chipo\" app) too old for Segwit support. Please update at"
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:289
@@ -2210,12 +2210,12 @@ msgid "Import"
 msgstr "Importēt"
 
 #: electrum/base_wizard.py:206
-msgid "Import Fujicoin Addresses"
-msgstr "Importēt Fujicoin adreses"
+msgid "Import Chipo Addresses"
+msgstr "Importēt Chipo adreses"
 
 #: electrum/base_wizard.py:134
-msgid "Import Fujicoin addresses or private keys"
-msgstr "Importēt Fujicoin adreses vai privātās atslēgas"
+msgid "Import Chipo addresses or private keys"
+msgstr "Importēt Chipo adreses vai privātās atslēgas"
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
 msgid "Import addresses"
@@ -2350,17 +2350,17 @@ msgstr "Nederīga summa"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Fujicoin Address"
-msgstr "Nederīga Fujicoin adrese"
+msgid "Invalid Chipo Address"
+msgstr "Nederīga Chipo adrese"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Fujicoin address"
+msgid "Invalid Chipo address"
 msgstr ""
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Fujicoin address."
-msgstr "Nederīga Fujicoin adrese."
+msgid "Invalid Chipo address."
+msgstr "Nederīga Chipo adrese."
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
 msgid "Invalid Fee"
@@ -2580,8 +2580,8 @@ msgid "Make sure you install it with python3"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:468
-msgid "Make sure you own the seed phrase or the private keys, before you request Fujicoins to be sent to this wallet."
-msgstr "Pirms pieprasāt Fujicoin uz šo maciņu, pārliecinieties, ka esat sēklas frāzes vai privātās atslēgas īpašnieks."
+msgid "Make sure you own the seed phrase or the private keys, before you request Chipos to be sent to this wallet."
+msgstr "Pirms pieprasāt Chipo uz šo maciņu, pārliecinieties, ka esat sēklas frāzes vai privātās atslēgas īpašnieks."
 
 #: electrum/plugins/coldcard/qt.py:154
 msgid "Master Fingerprint"
@@ -3221,8 +3221,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Lūdzu, pierakstiet šos {0} vārdus uz papīra (kārtība ir svarīga). "
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Fujicoin address or a payment request"
-msgstr "Lūdzu, noskenējiet Fujicoin adresi vai maksājuma pieprasījumu"
+msgid "Please scan a Chipo address or a payment request"
+msgstr "Lūdzu, noskenējiet Chipo adresi vai maksājuma pieprasījumu"
 
 #: electrum/plugin.py:557
 msgid "Please select which {} device to use:"
@@ -3886,8 +3886,8 @@ msgid "Settings"
 msgstr "Iestatījumi"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Fujicoin Request"
-msgstr "Dalīties ar Fujicoin pieprasījumu"
+msgid "Share Chipo Request"
+msgstr "Dalīties ar Chipo pieprasījumu"
 
 #: electrum/gui/kivy/uix/screens.py:277
 msgid "Should this transaction be replaceable?"
@@ -4071,7 +4071,7 @@ msgid "Start"
 msgstr "Sākums"
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Fujicoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Chipo system."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2870
@@ -4154,7 +4154,7 @@ msgid "Testnet coins are worthless."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Fujicoin network. It is used for testing."
+msgid "Testnet is separate from the main Chipo network. It is used for testing."
 msgstr ""
 
 #: electrum/gui/qt/util.py:662
@@ -4196,7 +4196,7 @@ msgstr "Ja maciņā nav pietiekami daudz līdzekļu, summa tiks rādīta sarkan�
 
 #: electrum/gui/qt/main_window.py:938
 msgid "The chipo address never expires and will always be part of this electrum wallet."
-msgstr "Fujicoin adresei nav derīguma termiņa, tā vienmēr būs daļa no šī Electrum maciņa."
+msgstr "Chipo adresei nav derīguma termiņa, tā vienmēr būs daļa no šī Electrum maciņa."
 
 #: electrum/gui/qt/main_window.py:1191
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -4368,8 +4368,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Šī opcija var palielināt transakciju komisijas maksu."
 
 #: electrum/gui/qt/main_window.py:467
-msgid "This means you will not be able to spend Fujicoins with it."
-msgstr "Tas nozīmē, ka nevarēsiet tērēt Fujicoin ar to."
+msgid "This means you will not be able to spend Chipos with it."
+msgstr "Tas nozīmē, ka nevarēsiet tērēt Chipo ar to."
 
 #: electrum/gui/qt/main_window.py:3109
 msgid "This might improve your privacy somewhat."
@@ -4453,7 +4453,7 @@ msgstr ""
 
 #: electrum/base_wizard.py:606
 msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive chipos during the transition period."
-msgstr "Tādējādi, jūs varat izmantot maciņu bez SegWit, lai varētu saņemt Fujicoin šajā pārejas periodā."
+msgstr "Tādējādi, jūs varat izmantot maciņu bez SegWit, lai varētu saņemt Chipo šajā pārejas periodā."
 
 #: electrum/gui/qt/main_window.py:2864
 msgid "Time based: fee rate is based on average confirmation time estimates"
@@ -5169,8 +5169,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr "Jūs arī varat saglabāt neparakstītus pieprasījumus vai kontaktu adreses izmantojot saglabāšanas pogu."
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Fujicoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Fujicoin address)"
-msgstr "Jūs varat ievadīt Fujicoin adresi, etiķeti no kontaktu saraksta (sarakstu piedāvās automātiski pabeigt) vai aizstājvārdu (e-pastam līdzīgu adresi, kas pārsūtīs uz Fujicoin adresi)."
+msgid "You may enter a Chipo address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Chipo address)"
+msgstr "Jūs varat ievadīt Chipo adresi, etiķeti no kontaktu saraksta (sarakstu piedāvās automātiski pabeigt) vai aizstājvārdu (e-pastam līdzīgu adresi, kas pārsūtīs uz Chipo adresi)."
 
 #: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."
@@ -5221,7 +5221,7 @@ msgstr "Jūsu konti tika pārvietoti uz"
 
 #: electrum/gui/qt/password_dialog.py:252
 msgid "Your chipos are password protected. However, your wallet file is not encrypted."
-msgstr "Jūsu Fujicoin ir aizsargāti ar paroli. Tomēr, jūsu maciņš nav šifrēts."
+msgstr "Jūsu Chipo ir aizsargāti ar paroli. Tomēr, jūsu maciņš nav šifrēts."
 
 #: electrum/plugins/trezor/qt.py:395 electrum/plugins/keepkey/qt.py:389
 #: electrum/plugins/safe_t/qt.py:268

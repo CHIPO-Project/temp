@@ -19,8 +19,8 @@ from electrum.logging import Logger
 
 
 class UpdateCheck(QWidget, Logger):
-    url = "https://electrum.fujicoin.org/version"
-    download_url = "https://www.fujicoin.org/downloads.php"
+    url = "https://electrum.chipo.org/version"
+    download_url = "https://www.chipo.org/downloads.php"
 
     VERSION_ANNOUNCEMENT_SIGNING_KEYS = (
         "Fk21aH8Xjd3V3cP6Fw3qMGSmfEQtztLNns",

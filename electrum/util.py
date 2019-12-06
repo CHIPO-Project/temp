@@ -1,4 +1,4 @@
-# Electrum - lightweight Fujicoin client
+# Electrum - lightweight Chipo client
 # Copyright (C) 2011 Thomas Voegtlin
 #
 # Permission is hereby granted, free of charge, to any person
@@ -65,18 +65,18 @@ def inv_dict(d):
 ca_path = certifi.where()
 
 
-base_units = {'FJC':8, 'mFJC':5, 'bits':2, 'sat':0}
+base_units = {'ICU':8, 'mICU':5, 'bits':2, 'sat':0}
 base_units_inverse = inv_dict(base_units)
-base_units_list = ['FJC', 'mFJC', 'bits', 'sat']  # list(dict) does not guarantee order
+base_units_list = ['ICU', 'mICU', 'bits', 'sat']  # list(dict) does not guarantee order
 
-DECIMAL_POINT_DEFAULT = 8  # FJC
+DECIMAL_POINT_DEFAULT = 8  # ICU
 
 
 class UnknownBaseUnit(Exception): pass
 
 
 def decimal_point_to_base_unit_name(dp: int) -> str:
-    # e.g. 8 -> "FJC"
+    # e.g. 8 -> "ICU"
     try:
         return base_units_inverse[dp]
     except KeyError:
@@ -84,7 +84,7 @@ def decimal_point_to_base_unit_name(dp: int) -> str:
 
 
 def base_unit_name_to_decimal_point(unit_name: str) -> int:
-    # e.g. "FJC" -> 8
+    # e.g. "ICU" -> 8
     try:
         return base_units[unit_name]
     except KeyError:
@@ -474,9 +474,9 @@ def user_dir():
     elif os.name == 'posix':
         return os.path.join(os.environ["HOME"], ".electrum-fjc")
     elif "APPDATA" in os.environ:
-        return os.path.join(os.environ["APPDATA"], "Electrum-FJC")
+        return os.path.join(os.environ["APPDATA"], "Electrum-ICU")
     elif "LOCALAPPDATA" in os.environ:
-        return os.path.join(os.environ["LOCALAPPDATA"], "Electrum-FJC")
+        return os.path.join(os.environ["LOCALAPPDATA"], "Electrum-ICU")
     else:
         #raise Exception("No home directory found in environment variables.")
         return

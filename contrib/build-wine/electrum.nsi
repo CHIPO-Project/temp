@@ -6,10 +6,10 @@
 ;--------------------------------
 ;Variables
 
-  !define PRODUCT_NAME "electrum-FJC"
+  !define PRODUCT_NAME "electrum-ICU"
   !define PRODUCT_VER "3.3.9"
-  !define PRODUCT_WEB_SITE "https://github.com/fujicoin/electrum-fjc"
-  !define PRODUCT_PUBLISHER "fujicoin.org"
+  !define PRODUCT_WEB_SITE "https://github.com/chipo/electrum-fjc"
+  !define PRODUCT_PUBLISHER "chipo.org"
   !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}-${PRODUCT_VER}"
 
 ;--------------------------------
@@ -126,8 +126,8 @@ Section
   CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}\Uninstall.lnk" "$INSTDIR\Uninstall.exe" "" "$INSTDIR\Uninstall.exe" 0
   CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}-${PRODUCT_VER}\${PRODUCT_NAME}-${PRODUCT_VER}.lnk" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe" "" "$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe" 0
 
-  ;Links fujicoin: URI's to Electrum-FJC
-  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "" "URL:fujicoin Protocol"
+  ;Links chipo: URI's to Electrum-ICU
+  WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "" "URL:chipo Protocol"
   WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "URL Protocol" ""
   WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}" "DefaultIcon" "$\"$INSTDIR\electrum.ico, 0$\""
   WriteRegStr HKCU "Software\Classes\${PRODUCT_NAME}-${PRODUCT_VER}\shell\open\command" "" "$\"$INSTDIR\${PRODUCT_NAME}-${PRODUCT_VER}.exe$\" $\"%1$\""

@@ -95,7 +95,7 @@
 
 # Release 3.3.4.2 - (May 19, 2019)
 
- * Minimum transaction fee was changed from 0.001 to 0.1 FJC/kB.
+ * Minimum transaction fee was changed from 0.001 to 0.1 ICU/kB.
 
 # Release 3.3.4.1 - (February 22, 2019)
 

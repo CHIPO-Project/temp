@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME_ROOT=electrum-FJC
+NAME_ROOT=electrum-ICU
 
 # These settings probably don't need any change
 export WINEPREFIX=/opt/wine64
